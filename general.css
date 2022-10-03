@@ -76,7 +76,8 @@ button{
     flex-direction: row-reverse;
 }
 
-@media (max-width: 900px) {
+/* Center text when not next to the img */
+@media (max-width: 1125px) {
     .about{
         text-align: center;
     }

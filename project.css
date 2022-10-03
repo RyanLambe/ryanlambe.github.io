@@ -40,10 +40,8 @@ h1{
 }
 
 .button-arrow{
-    height: 50px;
-    width: 50px;
     border-radius: 50%;
-    padding: 0%;
+    padding: 10px 17px;
     font-size: 24px;
 }
 
