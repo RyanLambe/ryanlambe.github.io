@@ -27,10 +27,24 @@ h1{
     margin: 45px;
     font-size: 48px;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .images{
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60vw;
+}
+
+.button-arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 0%;
+    font-size: 24px;
 }
 
 .info{
@@ -44,12 +58,12 @@ h1{
 }
 
 img{
-    height: 450px;
+    width: 85%;
+    object-fit: cover;
     border-radius: 15px;
 }
 
 div{
-    /* border: 1px solid red; */
     margin: 0%;
 }
 

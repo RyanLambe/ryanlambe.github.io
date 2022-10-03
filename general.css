@@ -75,3 +75,19 @@ button{
 .flip{
     flex-direction: row-reverse;
 }
+
+@media (max-width: 900px) {
+    .about{
+        text-align: center;
+    }
+
+    .align-left{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .align-right{
+        text-align: center;
+        align-items: center;
+    }
+}
