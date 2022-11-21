@@ -1,71 +1,44 @@
+
 <html>
-    <Head>
-        <title>Ryan Lambe</title>
-        <link rel="stylesheet" href="general.css">
+    <head>
         <link rel="stylesheet" href="index.css">
-    </Head>
-    <body>
-        <!-- Web GL demo -->
-        <canvas class="window"></canvas>
+        <script src="tools.js"></script>
+    </head>
+    <body  onload="setVideos('videos/21by9-test.mp4')">
+        <!--Header-->
+        <!--needs lots of work to look good-->
+        <div class="header">
+            <div class="title">
+                <h1 class="thick">RL</h1>
+                <h1 class="thin">Ryan<br>Lambe</h1>
+            </div>
 
-        <!-- Project 1 -->
-        <div class="proj-1 section">
-            <a href="project.html"><img src="images/goat.jpg" class="subsection proj-thumbnail"></a>
-            
-            <div class="subsection align-left">
-                <h1>Project Name</h1>
-                <p>Project Description. Sample text. Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
-                <button onclick="window.location.href='project.html';">More Details</button>
+            <a href="https://www.bing.ca/" class="link">
+                <h1 class="link">Contact / About</h1>
+            </a>
+        </div>
+        
+        <!--Projects-->
+        <div>
+            <video class="video" id = 'test' autoplay muted loop></video>
+
+            <div class="projectButton">
+                <a href="https://www.bing.ca/">
+                    <h2>Project Page</h2>
+                </a>
             </div>
         </div>
 
-        <!-- Project 2 -->
-        <div class="proj-2 section">
-            <a href="project.html"><img src="images/rat.jpg" class="subsection proj-thumbnail"></a>
-            
-            <div class="subsection align-right">
-                <h1>Project Name</h1>
-                <p>Project Description. Sample text. Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
-                <button onclick="window.location.href='https://github.com/RyanLambe';">More Details</button>
-            </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="proj-1 section">
-            <a href="project.html"><img src="images/goat.jpg" class="subsection proj-thumbnail"></a>
-            
-            <div class="subsection align-left">
-                <h1>Project Name</h1>
-                <p>Project Description. Sample text. Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
-                <button onclick="window.location.href='https://github.com/RyanLambe';">More Details</button>
-            </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="proj-2 section">
-            <a href="project.html"><img src="images/rat.jpg" class="subsection proj-thumbnail"></a>
-            
-            <div class="subsection align-right">
-                <h1>Project Name</h1>
-                <p>Project Description. Sample text. Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
-                <button onclick="window.location.href='https://github.com/RyanLambe';">More Details</button>
+        <!--Projects-->
+        <div>
+            <video class="video" id="test" autoplay muted loop></video>
+            <div class="projectButton">
+                <a href="https://www.bing.ca/">
+                    <h2>Project Page</h2>
+                </a>
             </div>
         </div>
 
         
     </body>
-    <footer>
-        <!-- About me section -->
-        <div class="about section">
-            <img src="images/wolf.jpg" class="subsection am-thumbnail">
-            
-            <div class="subsection align-left">
-                <h1 class = "am-title">About Me</h1>
-                <p class="am-description">Project Description. Sample text. Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
-                <button class="am-button" onclick="window.location.href='https://github.com/RyanLambe';">Visit My GitHub</button>
-            </div>
-        </div>
-
-        <h3>This website is still under development. please come back later!</h3>
-    </footer>
 </html>
