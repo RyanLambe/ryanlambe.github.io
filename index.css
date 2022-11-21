@@ -58,14 +58,16 @@ a:hover {
 }
 
 h1 {
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
     color: white;
-    margin: 20px;
+    margin: 15px;
     font-size: 48px;
 }
 
 h2 {
-    font-family: Arial;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+
     color: white;
     background-color: #FF8233;
 
@@ -81,9 +83,12 @@ h2 {
 
 .thin {
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 36px;
+    line-height: 80%;
+
     margin-left: 10px;
     padding-left: 20px;
+
     border-left: solid 5px white;
 }
 

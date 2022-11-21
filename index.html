@@ -1,12 +1,18 @@
 
 <html>
     <head>
+        <!--Open Sans-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+        </style>
+
         <link rel="stylesheet" href="index.css">
         <script src="tools.js"></script>
+
     </head>
     <body  onload="setVideos('videos/21by9-test.mp4')">
+        
         <!--Header-->
-        <!--needs lots of work to look good-->
         <div class="header">
             <div class="title">
                 <h1 class="thick">RL</h1>
@@ -19,8 +25,13 @@
         </div>
         
         <!--Projects-->
+
+        <!--Project 1-->
+        <!--Replace video with embeded youtube to reduice file size?-->
         <div>
-            <video class="video" id = 'test' autoplay muted loop></video>
+            <video class="video" id = 'test' autoplay muted loop>
+                <source>
+            </video>
 
             <div class="projectButton">
                 <a href="https://www.bing.ca/">
@@ -29,7 +40,7 @@
             </div>
         </div>
 
-        <!--Projects-->
+        <!--Project 2-->
         <div>
             <video class="video" id="test" autoplay muted loop></video>
             <div class="projectButton">
@@ -39,6 +50,5 @@
             </div>
         </div>
 
-        
     </body>
 </html>
