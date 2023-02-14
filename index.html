@@ -1,54 +1,79 @@
-
+<!DOCTYPE html>
 <html>
     <head>
-        <!--Open Sans-->
+        <!--Kanit Font-->
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap');
         </style>
+
+        <title>Ryan Lambe</title>
+        <link rel="icon" href="images/RL Icon.png">
 
         <link rel="stylesheet" href="index.css">
         <script src="tools.js"></script>
 
     </head>
-    <body  onload="setVideos('videos/21by9-test.mp4')">
+    <body onload="setVideos()">
         
         <!--Header-->
-        <div class="header">
-            <div class="title">
-                <h1 class="thick">RL</h1>
-                <h1 class="thin">Ryan<br>Lambe</h1>
-            </div>
+        <img src="images/RL Logo.png" class="logo">
 
-            <a href="https://www.bing.ca/" class="link">
-                <h1 class="link">Contact / About</h1>
-            </a>
-        </div>
-        
-        <!--Projects-->
-
-        <!--Project 1-->
-        <!--Replace video with embeded youtube to reduice file size?-->
+        <!--RL Engine-->
         <div>
-            <video class="video" id = 'test' autoplay muted loop>
-                <source>
+
+            <video class="video" autoplay muted loop controls>
+                <source src="https://drive.google.com/uc?export=download&id=1RuH757u1i40NikVXKfnfszHxWg6I4CgQ"> <!--16:9 Video link-->
+                <source src="https://drive.google.com/uc?export=download&id=1cE6iP83UxzEmE_-ZVoUco5nFAccKnGTE"> <!--21:9 Video link-->
             </video>
 
-            <div class="projectButton">
-                <a href="https://www.bing.ca/">
-                    <h2>Project Page</h2>
+            <div class="projectTitle">
+                <a href="https://github.com/RyanLambe/RL-Engine">
+                    <h2>RL Engine</h2>
                 </a>
             </div>
+
+            <h3>
+                RL Engine is a 3D game engine built using C++ and Direct X, providing dynamic lighting, custom skyboxes, and more. 
+                RL Engine also provides a highly intuitive and easy-to-use ECS (Entity Component System) for game object management, 
+                making the development process smoother and more efficient. To further enhance the development experience, 
+                the RL Engine also comes with a custom error and logging system, 
+                allowing developers to efficiently diagnose and fix any issues that may arise during the development process.
+            </h3>
         </div>
 
-        <!--Project 2-->
+        <!--Cross Over-->
         <div>
-            <video class="video" id="test" autoplay muted loop></video>
-            <div class="projectButton">
-                <a href="https://www.bing.ca/">
-                    <h2>Project Page</h2>
+
+            <video class="video" autoplay muted loop controls>
+                <source src="https://drive.google.com/uc?export=download&id=1Fqrm5SGxcl0mHMyBubzkRajlWFne528f"> <!--16:9 Video link-->
+                <source src="https://drive.google.com/uc?export=download&id=1r_fwNEvRMT5MNAnct_OvkM66ed00PPu8"> <!--21:9 Video link-->
+            </video>
+
+            <div class="projectTitle">
+                <a href="https://ldjam.com/events/ludum-dare/49/cross-over">
+                    <h2>Cross Over</h2>
                 </a>
             </div>
+
+            <h3>
+                This Game was made in 48 Hours for Ludum Dare 49. <br><br>
+                You are a robot trying to cross over to the flag. place blocks to help on your journey but watch out, they might be unstable!
+            </h3>
         </div>
 
+        <!--External Links-->
+        <hr width="50%">
+        <div class="external">
+            
+            <!--LinkedIn-->
+            <a href="https://www.linkedin.com/in/ryan-lambe-671095236/">
+                <img class="icon" src="images/LinkedIn Icon.png">
+            </a>
+
+            <!--GitHub-->
+            <a href="https://github.com/RyanLambe">
+                <img class="icon" src="images/GitHub Icon.png">
+            </a>
+        </div>
     </body>
 </html>

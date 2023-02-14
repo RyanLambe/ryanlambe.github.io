@@ -1,3 +1,0 @@
-About Me img dimensions: 360px by 360px(1:1)
-Project img dimensions: 720px by 480px(3:2) <- Must be .png
-thumbnail dimensions: 540px by 360px(3:2)

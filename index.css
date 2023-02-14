@@ -4,20 +4,35 @@ body {
     background-color: #003f66;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 48px;
 
-.title {
-    display: flex;
-    align-items: center;
-}
+    color: white;
+    background-color: #FF8233;
 
-a{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+    width: 50vw;
     height: fit-content;
-    width: fit-content;
+
+    border-radius: 15px;
+}
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+
+    text-align: center;
+
+    padding: 15vw;
+    padding-top: 0px;
+    padding-bottom: 50px;
+
 }
 
 a:link {
@@ -35,12 +50,14 @@ a:hover {
     text-decoration: underline;
 }
 
-.link {
-    justify-self: end;
-    font-size: 32px;
+.logo {
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+    padding-left: 0px;
 }
 
-.projectButton {
+.projectTitle {
     width: auto;
     display: flex;
     justify-content: center;
@@ -49,51 +66,7 @@ a:hover {
 
     z-index: 1;
     position: relative;
-    transform: translateY(-50%);
-}
-
-.name {
-    font-size: 72px;
-    margin: -17px;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    margin: 15px;
-    font-size: 48px;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-
-    color: white;
-    background-color: #FF8233;
-
-    text-align: center;
-    margin: 0px;
-    padding: 10px;
-
-    width: 50vw;
-    height: fit-content;
-
-    border-radius: 15px;
-}
-
-.thin {
-    font-weight: lighter;
-    font-size: 36px;
-    line-height: 80%;
-
-    margin-left: 10px;
-    padding-left: 20px;
-
-    border-left: solid 5px white;
-}
-
-.thick {
-    margin-right: 10px;
+     transform: translateY(-50%); 
 }
 
 .video {
@@ -105,4 +78,18 @@ h2 {
 
     border-top: white 5px solid;
     border-bottom: white 5px solid;
+}
+
+.external {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    padding: 1.5vw;
+    width: 100px;
+}
+
+.icon:hover {
+    width: 110px;
 }
