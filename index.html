@@ -27,20 +27,68 @@
     <body onload="setVideos()">
         
         <!--Header-->
-        <img src="images/RL Logo.png" class="logo">
-
-        <!--RL Engine-->
+        <div class="logoContainer">
+            <img src="images/RL Logo.png" class="logo"> <!-- Temp -->
+        </div>
+        
+        <!--RL OS-->
         <div>
+            <img class="video" src="images/RL OS.png">
 
-            <video class="video" autoplay muted loop controls>
-                <source src="https://drive.google.com/uc?export=download&id=1RuH757u1i40NikVXKfnfszHxWg6I4CgQ"> <!--16:9 Video link-->
-                <source src="https://drive.google.com/uc?export=download&id=1cE6iP83UxzEmE_-ZVoUco5nFAccKnGTE"> <!--21:9 Video link-->
+            <div class="projectTitle">
+                <h2>RL OS</h2>
+            </div>
+
+            <h3>
+                <i><b>** This Project is NOT FINISHED and is actively being worked on **</b></i><br><br>
+                
+                RL OS is a project to create an x86-64 Operating system from the ground up, using my own bootloader and kernel.
+                The goal is to understand the inner workings of operating systems. 
+                RL OS will support features such as multitasking, memory paging, a user-friendly interface, and an established file system.
+            </h3>
+
+            <div class="buttonContainer">
+                <a class="button" href="https://github.com/RyanLambe/RL-OS">
+                    Source Code
+                </a>
+            </div>
+            
+        </div>
+
+        <!--Zig 2D-->
+        <hr width="50%">
+        <div>
+            <video class="video playable" autoplay muted loop playsinline>
+                <source src="https://drive.google.com/uc?export=download&id=1RuH757u1i40NikVXKfnfszHxWg6I4CgQ">
             </video>
 
             <div class="projectTitle">
-                <a href="https://github.com/RyanLambe/RL-Engine">
-                    <h2>RL Engine</h2>
+                <h2>Zig 2D</h2>
+            </div>
+
+            <h3>
+                Zig2D is a 2D game engine that uses Zig and OpenGL to create cross-platform games. 
+                It supports physics, animated sprites, input handling, and more. 
+                Zig2D is easy to use and extend, and lets you focus on your game logic instead of low-level graphics details.
+            </h3>
+
+            <div class="buttonContainer">
+                <a class="button" href="https://github.com/RyanLambe/Zig2D">
+                    Source Code
                 </a>
+            </div>
+            
+        </div>
+
+        <!--RL Engine-->
+        <hr width="50%">
+        <div>
+            <video class="video playable" autoplay muted loop playsinline>
+                <source src="https://drive.google.com/uc?export=download&id=1RuH757u1i40NikVXKfnfszHxWg6I4CgQ">
+            </video>
+
+            <div class="projectTitle">
+                <h2>RL Engine</h2>
             </div>
 
             <h3>
@@ -50,26 +98,13 @@
                 the RL Engine also comes with a custom error and logging system, 
                 allowing developers to efficiently diagnose and fix any issues that may arise during the development process.
             </h3>
-        </div>
 
-        <!--Cross Over-->
-        <div>
-
-            <video class="video" autoplay muted loop controls>
-                <source src="https://drive.google.com/uc?export=download&id=1Fqrm5SGxcl0mHMyBubzkRajlWFne528f"> <!--16:9 Video link-->
-                <source src="https://drive.google.com/uc?export=download&id=1r_fwNEvRMT5MNAnct_OvkM66ed00PPu8"> <!--21:9 Video link-->
-            </video>
-
-            <div class="projectTitle">
-                <a href="https://ldjam.com/events/ludum-dare/49/cross-over">
-                    <h2>Cross Over</h2>
+            <div class="buttonContainer">
+                <a class="button" href="https://github.com/RyanLambe/RL-Engine" style="margin-bottom: 80px;"> <!--last project so should have external links closer-->
+                    Source Code
                 </a>
             </div>
-
-            <h3>
-                This Game was made in 48 Hours for Ludum Dare 49. <br><br>
-                You are a robot trying to cross over to the flag. place blocks to help on your journey but watch out, they might be unstable!
-            </h3>
+            
         </div>
 
         <!--External Links-->
@@ -77,7 +112,7 @@
         <div class="external">
             
             <!--LinkedIn-->
-            <a href="https://www.linkedin.com/in/ryan-lambe-671095236/">
+            <a href="https://www.linkedin.com/in/rlambe25/">
                 <img class="icon" src="images/LinkedIn Icon.png">
             </a>
 

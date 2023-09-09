@@ -31,8 +31,13 @@ h3 {
 
     padding: 15vw;
     padding-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 
+}
+
+hr {
+    margin-top: -30px;
+    margin-bottom: 15px;
 }
 
 a:link {
@@ -51,10 +56,28 @@ a:hover {
 }
 
 .logo {
-    width: 20vw;
+    width: 25vw;
     height: auto;
+
     padding: 10px;
-    padding-left: 0px;
+    padding-left: 10px;
+
+    margin-bottom: 10px;
+    margin-top: 0.25%;
+}
+
+.logoContainer {
+    background-color: #FF8233;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+    border: #FF8233 5px solid;
+
+    width: 50vw;
+    transform: translateX(25vw);
+
+    display: flex;
+    justify-content: center;
 }
 
 .projectTitle {
@@ -62,27 +85,57 @@ a:hover {
     display: flex;
     justify-content: center;
 
-    margin-bottom: 30px;
+    margin-bottom: -2.5%;
 
     z-index: 1;
     position: relative;
-     transform: translateY(-50%); 
+    transform: translateY(-50%); 
 }
 
 .video {
-    width: 100%;
+    width: 80%;
     height: auto;
     
+    margin-top: 35px;
     margin-bottom: -2.5px;
     z-index: 0;
+    transform: translateX(10%);/* 50% - (width / 2) */
 
-    border-top: white 5px solid;
-    border-bottom: white 5px solid;
+    border: white 5px solid;
+    border-radius: 15px;
+    /*border-bottom: white 5px solid;*/
+}
+
+.button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: #FF8233;
+    
+    margin: 0px;
+    margin-bottom: 120px;
+    padding: 10px;
+
+    padding-left: 25px;
+    padding-right: 25px;
+
+    border-radius: 15px;
+}
+
+.buttonContainer{
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .external {
     display: flex;
     justify-content: center;
+
+    margin-top: 0px;
 }
 
 .icon {
