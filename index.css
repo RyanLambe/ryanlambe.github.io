@@ -35,6 +35,20 @@ h3 {
 
 }
 
+h4 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    color: white;
+
+    text-align: center;
+
+    padding: 15vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
 hr {
     margin-top: -30px;
     margin-bottom: 15px;
