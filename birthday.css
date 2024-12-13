@@ -69,3 +69,11 @@ h4 {
 .puzzleTwo {
     color: teal;
 }
+
+.image {
+    height: 100vh;
+    width: auto;
+
+    border-radius: 15px;
+    outline: 10px solid rgba(0, 0, 0, 0.25);
+}
