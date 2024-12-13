@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: teal;
+}
+
+h1 {
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 200%;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-size: 100%;
+    text-align: center;
+}
+
+.header {
+    background-color: coral;
+    outline: 5px;
+
+    width: 80vw;
+    margin-left: 10vw;
+    padding-bottom: 10px;
+
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+.instructions {
+    color: beige;
+    text-shadow: 2px 2px rgb(41, 41, 41);
+    margin-top: 60px;
+}
+
+.puzzles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin-top: 60px;
+}
+
+.button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    background-color: coral;
+    
+    margin: 25px;
+    padding: 10px;
+
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    border-radius: 15px;
+}
