@@ -33,18 +33,6 @@ h4 {
     border-bottom-left-radius: 25px;
 }
 
-.puzzle_header {
-    background-color: coral;
-    outline: 5px;
-
-    width: 50vw;
-    margin-left: 25vw;
-    padding-bottom: 1px;
-
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-}
-
 
 .instructions {
     color: beige;
@@ -78,6 +66,6 @@ h4 {
     border-radius: 15px;
 }
 
-.puzzle_2 {
+.puzzleTwo {
     color: teal;
 }
